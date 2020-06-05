@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 14,
+    "editor.letterSpacing": -0.25,
+    "editor.fontFamily": "Menlo-Regular, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 20,
+    "keyboard.dispatch": "keyCode",
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "emmet.includeLanguages": {
+        "postcss": "css",
+        "javascript": ["css", "javascript"]
+    },
+    "editor.minimap.maxColumn": 80,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "search.exclude": {
+        "**/dist": true
+    },
+    "explorer.confirmDelete": false,
+    "typescript.preferences.quoteStyle": "single",
+}

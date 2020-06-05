@@ -1,0 +1,180 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+d",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  
+
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inQuickOpen"
+  },
+  {
+
+    "key": "ctrl+h",
+    "command": "-deleteLeft"
+  },
+
+  {
+    "key": "ctrl+h",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  
+
+  {
+    "key": "ctrl+shift+d",
+    "command": "cursorLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "cursorRightSelect",
+    "when": "textInputFocus"
+  },
+
+  
+  {
+    "key": "ctrl+cmd+d",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+h",
+    "command": "cursorBottom",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+t",
+    "command": "cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+
+
+
+  {
+    "key": "ctrl+cmd+shift+d",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+shift+h",
+    "command": "cursorBottomSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+shift+t",
+    "command": "cursorTopSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+cmd+shift+n",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "ctrl+alt+d",
+    "command": "cursorWordStartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+d",
+    "command": "cursorWordStartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+n",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus"
+  },
+
+
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "shift+ctrl+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.duplicateSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "alt+cmd+2",
+    "command": "workbench.action.editorLayoutTwoColumns"
+  },
+  {
+    "key": "alt+cmd+3",
+    "command": "workbench.action.editorLayoutThreeColumns"
+  },
+  {
+    "key": "shift+alt+space",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+]
